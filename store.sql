@@ -1,4 +1,6 @@
 -- Group project - Online store database --
+-- CSCI 466 --
+-- Abraham Gonzalez z2012791 --
 
 -- Creating tables --
 
@@ -53,7 +55,7 @@ CREATE TABLE [ORDER]
 );
 
 -- SHIPMENT table --
--- STATUS should be limited to words of SHIPPED and DELIVERED --
+-- STATUS should be limited to words of SHIPPED and DELIVERED -- 
 CREATE TABLE SHIPMENT
 (
     SHIPID CHAR(2)PRIMARY KEY,
